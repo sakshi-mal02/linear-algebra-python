@@ -10,25 +10,25 @@ Click the button for your week, then click **"Copy to Drive"** at the top to sav
 
 **Week 1 — Linear Systems and Matrices** (TBIL: LE1–LE4)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sakshi-mal02/linear-algebra-python/blob/main/week1_linear_systems.py)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sakshi-mal02/linear-algebra-python/blob/main/week1_linear_systems.ipynb)
 
 ---
 
 **Week 2 — Vectors, Span, and Independence** (TBIL: EV1–EV6)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sakshi-mal02/linear-algebra-python/blob/main/week2_vectors_span.py)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sakshi-mal02/linear-algebra-python/blob/main/week2_vectors_span.ipynb)
 
 ---
 
 **Week 3 — Linear Transformations** (TBIL: AT1–AT4)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sakshi-mal02/linear-algebra-python/blob/main/week3_transformations.py)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sakshi-mal02/linear-algebra-python/blob/main/week3_transformations.ipynb)
 
 ---
 
 **Week 4 — Eigenvalues and Applications** (TBIL: GT1–GT4)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sakshi-mal02/linear-algebra-python/blob/main/week4_eigenvalues_applications.py)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sakshi-mal02/linear-algebra-python/blob/main/week4_eigenvalues_applications.ipynb)
 
 ---
 
