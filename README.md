@@ -1,10 +1,22 @@
-# Linear Algebra — Python Lab
-### Applications in Linear Algebra | Spring 2026
+🧮 Applications in Linear Algebra — Python Lab
+Spring 2026 | Powered by Python, NumPy & SymPy
 
-All notebooks open directly in Google Colab — no installation needed.
-Click the button for your week, then click **"Copy to Drive"** at the top to save your own copy.
+Welcome! This page is your home for all Python lab materials used in our course.
+Every notebook runs directly in your browser — no installation, no setup, nothing to download.
+If you have never written a line of code before, that is completely fine.
+We start from zero and build up gradually, 10–15 minutes at a time.
 
----
+----
+🚀 Getting Started
+First time here? Start with the Python Basics notebook below before Week 1.
+
+
+Click any Open in Colab button below
+Sign in with your Google account
+Click File → Save a copy in Drive at the top — this saves your own editable copy
+Run cells one at a time with Shift + Enter
+That's it. You're coding. 🎉
+----
 
 ## Weekly Notebooks
 
