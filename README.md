@@ -18,6 +18,22 @@ First time here? Start with the Python Basics notebook below before Week 1.
 
 
 ----
+Pre-Lab: Python Basics
+
+Do this before the first lab session.
+Covers variables, lists, NumPy arrays, and SymPy in about 5–10 minutes.
+If you already know Python, feel free to skip it.
+
+Running code in a notebook
+- Variables, lists, and basic arithmetic
+- NumPy arrays as vectors and matrices
+- SymPy for exact math
+- A cheat sheet to keep open during labs
+- A final check cell to confirm you are ready for Week 1
+
+  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sakshi-mal02/linear-algebra-python/blob/main/week0_python_basics.ipynb)
+
+---- 
 ## Weekly Notebooks
 
 **Week 1 — Linear Systems and Matrices** (TBIL: LE1–LE4)
