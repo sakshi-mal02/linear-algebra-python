@@ -7,8 +7,17 @@ If you have never written a line of code before, that is completely fine.
 We start from zero and build up gradually, 10–15 minutes at a time.
 
 ----
+🚀 Getting Started
+First time here? Start with the Python Basics notebook below before Week 1.
+
+- Click any Open in Colab button below
+- Sign in with your Google account
+- Click File → Save a copy in Drive at the top — this saves your own editable copy
+- Run cells one at a time with Shift + Enter
+- That's it. You're coding. 🎉
 
 
+----
 ## Weekly Notebooks
 
 **Week 1 — Linear Systems and Matrices** (TBIL: LE1–LE4)
