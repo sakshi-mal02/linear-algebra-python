@@ -116,3 +116,73 @@ Topics covered:
 2. Click **Copy to Drive** at the top (saves your own editable copy)
 3. Run each cell by clicking the play button ▶ on the left
 4. Complete the exercises at the bottom of the notebook
+
+---
+
+🎓 Final Project
+You will complete one of the four projects below. Each one takes a real-world problem
+and shows how the linear algebra from this course is the engine underneath it.
+You will submit two things:
+
+A Google Colab notebook with your documented, working code
+A PDF report (4–6 pages) explaining your problem, methods, and results
+
+---
+
+Option A — Image Compression via SVD 🖼️
+The big idea: Every digital image is just a matrix of numbers.
+Singular Value Decomposition (SVD) breaks that matrix into layers of decreasing importance.
+By keeping only the most important layers you get a compressed image that still looks good —
+this is the mathematics behind image compression used in photography and streaming.
+What you will do:
+
+Load a real grayscale image and treat it as a matrix
+Apply numpy.linalg.svd() to decompose it
+Reconstruct the image using only the top k singular values for several values of k
+Plot a side-by-side comparison of original vs. compressed, and a quality vs. compression curve
+Explain the connection between the number of singular values kept and the rank of the approximation
+
+Linear algebra concepts used:
+Rank · Column space · Matrix approximation · Singular values
+Python tools: numpy.linalg.svd() · matplotlib.pyplot.imshow() · PIL or skimage for image loading
+
+---
+
+Option B — Markov Chain Steady State 📊
+The big idea: Many real-world processes — weather patterns, board games, population movement,
+customer behavior — can be modeled as a system that randomly jumps between states.
+A Markov chain captures this as a matrix, and linear algebra tells us exactly where the
+system ends up in the long run: the steady-state distribution, which is an eigenvector.
+What you will do:
+
+Choose a real-world process and model it as a Markov chain (at least 4 states)
+Write the transition matrix where each column sums to 1
+Find the steady-state distribution as the eigenvector with eigenvalue λ = 1
+Simulate the chain for 500–1000 steps and plot how the distribution evolves over time
+Compare the simulation result to the exact eigenvector answer
+
+Linear algebra concepts used:
+Eigenvalues · Eigenvectors · Column-stochastic matrices · Long-run behavior
+Python tools: numpy.linalg.eig() · matplotlib · numpy.random for simulation
+
+---
+
+Option C — Least Squares Regression 📈
+The big idea: Real data is messy — it rarely fits a line or curve exactly.
+Least squares finds the best possible fit by solving a linear system that has no exact solution.
+The key insight: instead of solving Ax = b (which may be inconsistent), we solve AᵀAx = Aᵀb,
+which always has a solution and gives us the projection of b onto the column space of A.
+What you will do:
+
+Find or collect a real dataset with at least one input variable and one output variable
+Set up the design matrix A and target vector b for a polynomial or multi-variable fit
+Solve the normal equations using numpy.linalg.solve(A.T @ A, A.T @ b)
+Plot the data and fitted model together; compute and visualize the residuals
+Explain what the column space of A represents in the context of your regression
+
+Linear algebra concepts used:
+Column space · Projection · Normal equations · Inconsistent systems · Least squares solution
+Python tools: numpy · matplotlib · optionally pandas for data loading
+
+---
+
