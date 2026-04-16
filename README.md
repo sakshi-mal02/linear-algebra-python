@@ -77,6 +77,9 @@ We also compute image and kernel computationally and verify the Rank-Nullity the
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sakshi-mal02/linear-algebra-python/blob/main/week3_transformations.ipynb)
 
+Beginner Version - 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/sakshi-mal02/linear-algebra-python/blob/main/Week3_Linear_Transformations%20(beginner)%20.ipynb)
+
 Topics covered:
 
 - Applying T(x) = Ax with the @ operator
